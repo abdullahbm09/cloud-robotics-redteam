@@ -6,6 +6,8 @@
 
 ---
 
+![SAE Framework Overview](../assets/sae-framework-overview.png)
+
 ## Overview
 
 Existing Security Assurance Evaluation (SAE) methodologies focus on system-level security and fail to comprehensively evaluate business process security — particularly in dynamic Industry 4.0 environments where IT, OT, cloud, and robotics are deeply integrated.
@@ -28,6 +30,8 @@ The assurance context establishes the evaluation boundary — what is being eval
 
 **4 elements of the assurance context:**
 
+![Business Process Mapping](../assets/business-process-mapping.png)
+
 **1. Stakeholder Context** — identifies internal (process owners, IT/OT admins, engineers), external (regulatory bodies, customers), and third-party (security auditors, vendors) stakeholders. Each stakeholder group shapes the security requirements and evaluation scope.
 
 **2. Business Process Context** — defines the Process of Interest (PoI): its assets, boundaries, environment, and dependencies. The PoI is the specific business process subjected to SAE evaluation (e.g., "automated quality control cloud-robotic process").
@@ -38,6 +42,10 @@ Operational Environment
     └── Process Assets (IT, OT, Cloud, Robotics)
         └── Process of Interest (PoI)
 ```
+
+![PoI Structure](../assets/poi-structure.png)
+
+![PoI Context](../assets/poi-context.png)
 
 **3. Assurance Assumption Context** — explicitly documents conditions assumed to hold during evaluation (e.g., "SROS2 is properly deployed," "physical security measures are in place"). Invalid assumptions lead to flawed conclusions. Must be published alongside results.
 

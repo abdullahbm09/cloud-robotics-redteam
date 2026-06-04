@@ -19,6 +19,8 @@ Two complete attack chains were designed, executed, and measured against a live 
 
 The target is a three-layer cloud-robotics business process for automated quality control:
 
+![Cloud-Robotics Architecture](assets/cloud-robotics-architecture.png)
+
 | Layer | Components | Role |
 |-------|-----------|------|
 | **Physical** | PincherX-150 robotic arms, vision systems, production line | Product inspection and defect correction |
@@ -28,6 +30,8 @@ The target is a three-layer cloud-robotics business process for automated qualit
 **Attacker position:** Kali Linux machine, zero prior knowledge of internal systems, no insider access.
 
 **Simulation:** Two VirtualBox VMs on an isolated network — Machine 1 (internal/edge, `192.168.100.5`) and Machine 2 (cloud, `192.168.100.6`).
+
+![VirtualBox Network Simulation Model](assets/network-simulation-model.png)
 
 ---
 
@@ -61,6 +65,7 @@ Exploitation of a critical (CVSS 9.8) OpenSSH agent forwarding vulnerability to 
 
 ```
 cloud-robotics-redteam/
+├── assets/                            # Figures from Overleaf paper source
 ├── framework/
 │   └── security-assurance-framework.md    # The novel SAE framework methodology
 ├── environment/
@@ -87,6 +92,8 @@ cloud-robotics-redteam/
 ---
 
 ## Security Assurance Framework
+
+![Security Assurance Framework](assets/sae-framework-overview.png)
 
 A novel framework was developed for this engagement combining:
 - Business process mapping and Process of Interest (PoI) definition

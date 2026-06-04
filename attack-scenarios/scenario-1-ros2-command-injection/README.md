@@ -157,6 +157,8 @@ class AdversarialNode(Node):
 
 ### Phase 7: Impact (TA0040)
 
+![Robotic Arm: Normal vs Attack Trajectory](../../assets/robotic-arm-normal-vs-attack-trajectory.png)
+
 **Direct impact:**
 - Defect correction halted — robotic arm locked in place
 - Production line unable to execute corrections

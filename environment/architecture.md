@@ -2,6 +2,8 @@
 
 ## Three-Layer Cloud-Robotics Architecture
 
+![Automated Quality Control Cloud-Robotics Architecture](../assets/cloud-robotics-architecture.png)
+
 ```
 ┌────────────────────────────────────────────────────────────┐
 │  CLOUD LAYER — Machine 2 (192.168.100.6)                   │
@@ -50,6 +52,8 @@
 **Critical finding:** Developer group granted sudo for `python3` and `git` — direct GTFOBins root escalation path with no additional exploitation required.
 
 ## Network Architecture
+
+![VirtualBox Network Simulation Model](../assets/network-simulation-model.png)
 
 - Machine 1 (`192.168.100.5`) — **Internal network** zone
 - Machine 2 (`192.168.100.6`) — **Cloud network** zone
